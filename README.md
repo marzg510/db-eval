@@ -34,15 +34,15 @@
 
 ## Target Databases
 
-### RDBMS
-* Oracle
-* SQL Server
-* MySQL
-* PostgreSQL
-
-### NoSQL
+* See DB-list.ods
 
 
-### Cloud
+## Tests
+### Bats
+```
+sudo add-apt-repository ppa:duggan/bats --yes
+sudo apt-get update -qq
+sudo apt-get install -qq bats
+```
 
-
+### Groovy

@@ -3,6 +3,8 @@ create table t1 (
 ,c2 varchar(100)
 );
 
+SET AUTOCOMMIT=false;
+
 insert into t1 values ( '001','test001');
 insert into t1 values ( '002','test002');
 insert into t1 values ( '003','test003');
