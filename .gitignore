@@ -1,3 +1,4 @@
 .vagrant/
 mysql-connector-java*
 .~lock.*.ods#
+mysql/data/
